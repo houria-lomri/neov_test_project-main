@@ -49,8 +49,7 @@ chainlit run model.py --port 8501
 
 
 ### Upload a document and start asking questions!
-
-![Uploading interface1.PNG…]()
+![Chatbot Interface](images/interface1.png)
 
 
 
