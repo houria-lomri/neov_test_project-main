@@ -30,23 +30,25 @@ Ce projet vise à développer un chatbot intelligent capable de répondre aux qu
 
 
 
-##  Installation & Setup
+## Installation & Setup
 
-2️⃣ Create a virtual environment
+### Virtual Environment
 
+#### Creation
 python -m venv llama_env
+
 source llama_env/bin/activate  # (Linux/macOS)
 llama_env\Scripts\activate     # (Windows)
 
-3️⃣ Install dependencies
+### Install dependencies
 pip install -r req.txt
 
 
-4️⃣ Run the chatbot
+ ### Run the chatbot
 chainlit run model.py --port 8501
 
 
-5️⃣ Upload a document and start asking questions!
+### Upload a document and start asking questions!
 
 ![Uploading interface1.PNG…]()
 
