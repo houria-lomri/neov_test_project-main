@@ -1,0 +1,15 @@
+# Ignorer l'environnement virtuel
+llama_env/
+
+# Ignorer les fichiers temporaires Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorer les fichiers système
+.DS_Store
+Thumbs.db
+
+# Ignorer les fichiers de dépendances
+.env
+.vscode/
