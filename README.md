@@ -1,23 +1,24 @@
-Medical Bot - AI-Powered Document Q&A
+# ChatBot - AI-Powered Document Q&A
 
+## 📌 Description du projet  
+Ce projet vise à développer un chatbot intelligent capable de répondre aux questions des utilisateurs en utilisant des documents indexés (PDF ou texte). L'objectif est d'assurer une récupération rapide et précise des informations.
 
-📌 Project Overview
-This project aims to develop an intelligent chatbot capable of answering users' questions using indexed documents (PDF or text). The goal is to enable efficient and accurate information retrieval from a document corpus.
+## ✅ Fonctionnalités  
+- 📂 **Upload** de fichiers PDF ou texte pour l'analyse  
+- 🔍 **Récupération** des réponses en fonction du contenu des documents  
+- ⚡ **Indexation efficace** des documents avec FAISS  
+- 🖥️ **Exécution locale** grâce à `CTransformers` pour l'inférence LLM  
+- 💬 **Conversations multi-tours** supportées avec `Chainlit`  
 
-🚀 Features
-✅ Upload PDF or text files for analysis.
-✅ Retrieve answers based on document content.
-✅ Uses FAISS for efficient document indexing.
-✅ Runs locally with CTransformers for LLM inference.
-✅ Supports multi-turn conversations with Chainlit.
+## 🛠️ Technologies utilisées  
+- **Python** (Backend)  
+- **FAISS** (Stockage des vecteurs)  
+- **HuggingFace Embeddings** (Traitement du texte)  
+- **CTransformers & Llama 2** (Modèle de langage)  
+- **Chainlit** (Interface interactive du chatbot)  
 
-🛠 Technology Stack
-Python (Backend)
-FAISS (Vector Storage)
-HuggingFace Embeddings (Text Processing)
-CTransformers & Llama 2 (Language Model)
-Chainlit (Interactive Chat Interface)
-📂 Project Structure
+## 📁 Structure du projet  
+
 
 📁 neov_test_project
  ┣ 📁 data/                   # Folder for uploaded documents  
@@ -25,14 +26,12 @@ Chainlit (Interactive Chat Interface)
  ┣ 📁 images/                 # Screenshots & UI images  
  ┣ 📄 model.py                # Main script for the chatbot  
  ┣ 📄 README.md               # Project documentation  
- ┗ 📄 requirements.txt        # Dependencies  
-🔧 Installation & Setup
-1️⃣ Clone the repository
+ ┗ 📄 req.txt                 # Dependencies  
 
-bash
-Copier le code
-git clone https://github.com/your-repo/medical-bot.git
-cd medical-bot
+
+
+##  Installation & Setup
+
 2️⃣ Create a virtual environment
 
 python -m venv llama_env
